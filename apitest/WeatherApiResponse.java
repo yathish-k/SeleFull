@@ -12,6 +12,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 public class WeatherApiResponse {
 	
 	private final String USER_AGENT="Mozilla/5.0";
+	@SuppressWarnings("deprecation")
 	public String GetResponse() throws ClientProtocolException, IOException
 	{
 		StringBuffer result=new StringBuffer();
